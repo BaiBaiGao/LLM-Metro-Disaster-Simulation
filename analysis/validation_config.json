@@ -1,0 +1,91 @@
+{
+  "afc_directory": "",
+  "station_file": "",
+  "line11_baseline": [
+    20241208,
+    20241215
+  ],
+  "bebinca_baseline": [
+    20240908,
+    20240922
+  ],
+  "bebinca_alternative": [
+    20240909,
+    20240923
+  ],
+  "batch_size": 1000000,
+  "figure": {
+    "dpi": 600,
+    "font": "Arial",
+    "font_size": 12,
+    "width_inches": 7.1,
+    "observed_color": "#0A6DAF",
+    "llm_color": "#AC5326",
+    "reference_color": "#059244",
+    "line_width": 1.5
+  },
+  "name_aliases": {
+    "浦东国际机场": "浦东1号2号航站楼",
+    "浦电路(4号线)": "向城路",
+    "浦电路(6号线)": "浦电路",
+    "一大会址●新天地": "一大会址·新天地",
+    "一大会址●黄陂南路": "一大会址·黄陂南路",
+    "松江南站": "上海松江站",
+    "华泾西": "景洪路",
+    "东昌路": "浦东南路"
+  },
+  "alias_source": "https://www.shanghai.gov.cn/nw4411/20240922/f5fd81dbfe9244a298fd13806c993ca3.html?siteId=1",
+  "line11_spatial_figure": {
+    "width_inches": 8,
+    "height_inches": 4,
+    "width_ratios": [
+      1,
+      1.65
+    ],
+    "station_axis_max_thousand": 17,
+    "event_date": 20241222,
+    "stations": [
+      {
+        "name": "嘉定新城",
+        "label": "Jiading Xincheng"
+      },
+      {
+        "name": "马陆",
+        "label": "Malu"
+      },
+      {
+        "name": "陈翔公路",
+        "label": "Chenxiang Highway"
+      },
+      {
+        "name": "南翔",
+        "label": "Nanxiang"
+      },
+      {
+        "name": "桃浦新村",
+        "label": "Taopu Xincun"
+      },
+      {
+        "name": "武威路",
+        "label": "Wuwei Road"
+      },
+      {
+        "name": "祁连山路",
+        "label": "Qilianshan Road"
+      }
+    ],
+    "selection_rule": "嘉定新城至武威路六站及东侧相邻的祁连山路，按线路顺序排列。",
+    "caption_zh": "事故日11号线分区段客流保持率及官方短驳覆盖走廊与其东侧相邻站的客流变化。正常参照为2024年12月8日和15日的平均进站量，事故日为12月22日。左图停运区段包括陈翔公路、南翔和桃浦新村，按11号线站码统计；右图展示嘉定新城至武威路之间的六站及东侧紧邻的祁连山路站，按线路顺序排列并按物理站点统计。数据为AFC进站量。"
+  },
+  "bebinca_matched_figure": {
+    "width_inches": 7.1,
+    "height_inches": 4.8,
+    "y_max": 1.35,
+    "caption": "Eight Bebinca snapshots: AFC retention and OD-standardized LLM metro choices within matched OD. Solid lines use the Sunday reference; dotted lines show Monday sensitivity for 16 September. The 16 September 18:00 window ends at 18:20.",
+    "font_size": 12,
+    "tick_font_size": 12,
+    "axis_label_font_size": 14,
+    "legend_font_size": 12
+  },
+  "figure_output_directory": ""
+}
